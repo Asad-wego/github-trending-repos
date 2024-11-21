@@ -1,0 +1,8 @@
+{
+  "retry_button": "Retry",
+  "error_message": "Error:",
+  "loading_message": "Loading...",
+  "no_description_available": "No description provided.",
+  "operation_cancelled_new_request": "Operation canceled due to new request.",
+  "component_unmounted_message": "Component unmounted."
+}
