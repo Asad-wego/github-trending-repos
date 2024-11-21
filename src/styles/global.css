@@ -1,0 +1,11 @@
+app {
+    padding: 16px; /* Add padding around the entire screen */
+    background-color: #f6f8fa; /* Optional: Set a background color */
+  }
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f6f8fa;
+  }
+  

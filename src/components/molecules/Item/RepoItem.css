@@ -1,0 +1,58 @@
+.repo-item {
+  display: flex;
+  align-items: flex-start;
+  padding: 16px; 
+  border-bottom: 1px solid #e1e4e8;
+  background-color: #ffffff;
+  flex-wrap: wrap;
+}
+
+.repo-item:last-child {
+  border-bottom: none; /* No separator for the last item */
+}
+
+.repo-item img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 16px;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.details h3 {
+  margin: 0 0 8px;
+  font-size: 18px;
+  color: #0366d6;
+  word-wrap: break-word;
+  flex: 1;
+}
+
+.details p {
+  margin: 0 0 12px;
+  font-size: 14px;
+  color: #586069;
+  line-height: 1.5; 
+  word-wrap: break-word;
+  text-align: justify; 
+  hyphens: auto; 
+  max-width: 100%; 
+}
+
+.details .info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  color: #24292e;
+}
+
+.details .info .stars {
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+}
